@@ -1,3 +1,5 @@
 # Food_Panda
 
-Tech stack : Reactjs, Nodejs, mongodb, express
+food ordering web application using javascript
+
+# Tech stack : Reactjs, Nodejs, mongodb, express
