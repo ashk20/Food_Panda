@@ -1,0 +1,72 @@
+
+.PaperStyle { 
+    padding: 20;
+    height: '70vh'; 
+    width: 300; 
+    margin: '20px auto';
+}
+
+.navbar {
+   background-color: brown;
+}
+
+
+.links {
+    text-align: right;
+}
+
+.container {
+    max-width: '1300px';
+    margin: ' 1rem auto';
+
+    
+}
+.cardImage {
+    background-image: url('../images/R.jpg');
+    height: '140px';
+}
+.dish {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: '10px auto';
+    padding-top: '50px';
+}
+
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: black;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+ 
+
+@media (max-width: 1232px ) {
+    .dish {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+   
+}
+
+@media (max-width: 950px ) {
+    .dish {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+}
+
+@media (max-width: 630px ) {
+    .dish {
+        grid-template-columns: 1fr;
+    }
+    .search {
+        margin-left: 3px;
+        width: 'auto'
+    }
+   
+}
